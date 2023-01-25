@@ -1,5 +1,5 @@
 const imgs = document.querySelectorAll('img');
 
-imgs.forEach(item) => {
+imgs.forEach((item) => {
   
-}
+})
