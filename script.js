@@ -1,10 +1,16 @@
 const menu = document.querySelector('.menu')
 
+const botao = document.querySelector('.botao-esconder')
 
 
-
-menu.addEventListener('click', function(){
+botao.addEventListener('click', function(){
   menu.classList.toggle('esconder')
 })
 
 
+
+
+
+// menu.addEventListener('click', function(){
+//   menu.classList.toggle('esconder')
+// })
