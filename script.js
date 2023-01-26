@@ -8,9 +8,3 @@ botao.addEventListener('click', function(){
 })
 
 
-
-
-
-// menu.addEventListener('click', function(){
-//   menu.classList.toggle('esconder')
-// })
