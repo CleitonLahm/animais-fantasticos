@@ -219,4 +219,9 @@ margin-left: 30px;
   border: none;
   color: whitesmoke;
   font-weight: bold;
+  transition: 0.5s;
+}
+
+.botao:hover{
+  background: linear-gradient(160deg, #e54, #FB5)
 }
