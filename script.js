@@ -39,6 +39,11 @@ links.forEach((a) => {
 // Se o browser for menor que 720px,
 // adicione a classe menu-mobile ao menu
 
+const menu = document.querySelector('.menu')
 
 const browserWidth = window.innerWidth;
 console.log(browserWidth)
+
+if(browserWidth < 720){
+  menu.classList.add('menu-mobile')
+}
