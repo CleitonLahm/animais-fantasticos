@@ -2,6 +2,9 @@
 // Verifique a distância da primeira imagem
 // em relação ao topo da página
 
+const imagem1 = document.querySelector('img')
+console.log(imagem1)
+
 // Retorne a soma da largura de todas as imagens
 
 // Verifique se os links da página possuem
