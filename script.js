@@ -5,6 +5,9 @@
 const imagem1 = document.querySelector('img')
 console.log(imagem1)
 
+const imagem1offsettop = imagem1.offsetTop;
+console.log(imagem1offsettop);
+
 // Retorne a soma da largura de todas as imagens
 
 // Verifique se os links da página possuem
