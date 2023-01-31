@@ -1,3 +1,10 @@
 const img = document.querySelector('img')
 
-console.log(img)
+
+
+function clicou(){
+  console.log('clicou')
+}
+
+
+img.addEventListener('click', clicou); 
