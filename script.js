@@ -1,10 +1,10 @@
-const img = document.querySelector('img')
+const imgs = document.querySelector('img')
 
 
 
-function clicou(){
-  console.log('clicou')
-}
 
 
-img.addEventListener('click', clicou); 
+
+imgs.forEach((img) => {
+  img.addEventListener('click', handleImg)
+})
