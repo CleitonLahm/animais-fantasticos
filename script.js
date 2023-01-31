@@ -3,11 +3,16 @@
 // demais itens caso eles possuam a mesma. Previna
 // o comportamento padrão desses links
 
-const linksInternos = document.querySelectorAll('a');
-linksInternos.forEach(link, function{
-  console.log(link)
-})
+const linksInternos = document.querySelectorAll('a[href^="#"]');
+
+function addClass(){
   
+}
+
+
+linksInternos.forEach((link) => {
+  link.addEventListener('click', addClass)
+})
 
 
 
