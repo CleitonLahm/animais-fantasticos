@@ -5,8 +5,12 @@
 
 const linksInternos = document.querySelectorAll('a[href^="#"]');
 
-function addClass(){
-  
+function addClass(event){
+  event.preventDefault();
+  linksInternos.forEach((link) => {
+    link.classList.remove('ativo')
+  })
+  event.currentTarget.classList.add('ativo')
 }
 
 
