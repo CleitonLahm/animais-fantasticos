@@ -46,3 +46,5 @@ todo.forEach((item) => {
 
 
 // Se o usuário clicar na tecla (t), aumente todo o texto do site. 
+
+
