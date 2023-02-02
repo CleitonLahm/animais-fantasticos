@@ -6,7 +6,9 @@
 const menu = document.querySelector('.menu')
 const copy = document.querySelector('.copy')
 
+const menuClone = menu.cloneNode(true);
 
+copy.appendChild(menuClone);
 
 // Selecione o primeiro DT da dl de Faq
 
