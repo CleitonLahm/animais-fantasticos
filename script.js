@@ -12,6 +12,12 @@ copy.appendChild(menuClone);
 
 // Selecione o primeiro DT da dl de Faq
 
+const dt = document.querySelector('dl :nth-child(1)');
+console.log(dt)
+
 // Selecione o DD referente ao primeiro DT
+
+const dd = document.querySelector('dl dt :nth-child(1)');
+console.log(dd)
 
 // Substitua o conteúdo html de .faq pelo de .animais
