@@ -21,3 +21,8 @@ const dd = document.querySelector('dl dt :nth-child(1)');
 console.log(dd)
 
 // Substitua o conteúdo html de .faq pelo de .animais
+
+const faq = document.querySelector('.faq')
+const animais = document.querySelector('.animais')
+
+faq.innerHTML = animais.innerHTML
