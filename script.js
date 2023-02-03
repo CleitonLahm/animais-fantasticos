@@ -1,8 +1,10 @@
   const tabMenu = document.querySelectorAll('.js-tabmenu li');
   const tabContent = document.querySelectorAll('.js-tabcontent section');
-  tabContent[0].classList.add('ativo');
 
-  function activeTab(index) {
+  if(tabMenu.length && tabContent.length){
+    tabContent[0].classList.add('ativo');
+  
+    function activeTab(index) {
     tabContent.forEach((section) => {
        section.classList.remove('ativo');
     });
@@ -13,4 +15,4 @@
         activeTab(index);
       });
     });
-  
+  }
