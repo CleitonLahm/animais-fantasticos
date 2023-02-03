@@ -248,6 +248,19 @@ margin-left: 30px;
 
 .js-accordion dt.ativo::after{
   content: '⮥';
-  margin-left: 10px;
+}
+
+.js-accordion dd.ativo{
+  display: block;
+  animation: slideDown .5s forwards;
+}
+
+@keyframes slideDown {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
