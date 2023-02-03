@@ -56,3 +56,11 @@ function scrollToSection(event){
 linksInternos.forEach((link) => {
   link.addEventListener('click', scrollToSection)
 })
+
+const sections = document.querySelectorAll('.js-scroll')
+
+function animaScroll(){
+  console.log('sdfsdf')
+}
+
+window.addEventListener('scroll', animaScroll)
