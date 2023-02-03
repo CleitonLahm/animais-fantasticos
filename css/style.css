@@ -236,3 +236,7 @@ margin-left: 30px;
     transform: translate3d(0px, 0, 0);
   }
 }
+
+.js .js-accordion dd{
+  display: none;
+}
