@@ -57,15 +57,27 @@ linksInternos.forEach((link) => {
   link.addEventListener('click', scrollToSection)
 })
 
+
+function initAnimacaoScroll(){
 const sections = document.querySelectorAll('.js-scroll')
+if(sections.length){
+const windowetade = window.innerHeight * 0.6;
 
 function animaScroll(){
   sections.forEach((section) => {
     const sectionTop = section.getBoundingClientRect().top;
-    if(sectionTop < 0){
+    const isSectionVisible = (sectionTop - windowetade) < 0;
+    if(isSectionVisible){
       section.classList.add('ativo')
+    }else {
+      section.classList.remove('ativo');
     }
   })
 }
 
+animaScroll();
+
 window.addEventListener('scroll', animaScroll)
+}
+}
+initAnimacaoScroll();
