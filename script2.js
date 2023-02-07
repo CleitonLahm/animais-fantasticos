@@ -6,3 +6,11 @@ function Carro() {
 const honda = new Carro();
 const fiat =  new Carro();
 fiat.marca = 'Fiat'
+
+function Carro2(marca, precoInicial) {
+  const taxa = 1.2;
+  const precoFinal = precoInicial * taxa;
+  this.marca = marca;
+  this.preco = precoFinal;
+}
+
