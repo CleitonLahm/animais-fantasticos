@@ -2,4 +2,4 @@ function Carro() {
 
 }
 
-const honda = Carro();
+const honda = new Carro();
