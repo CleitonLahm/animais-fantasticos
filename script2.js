@@ -14,3 +14,4 @@ function Carro2(marca, precoInicial) {
   this.preco = precoFinal;
 }
 
+const BMW = new Carro2('BMW', 50000);
