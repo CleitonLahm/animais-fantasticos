@@ -10,4 +10,8 @@ export default function initDropdownMenu() {
     event.preventDefault();
     this.classList.add('active');
   };
+
+
+
+
 }
